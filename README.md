@@ -19,3 +19,8 @@ Because of [OSX bugs](http://ludovicrousseau.blogspot.com/2016/04/os-x-el-capita
 * where `XXX` is the personal part of a [Developer ID](https://developer.apple.com/developer-id/) certificate common name, such as `Martin Paljak`
 or `Martin Paljak (9ME8T34MPV)`
   * You can list your ID-s with `security find-identity -v -p codesigning`
+#### Changelog
+Date: 20241030
+* remove A_PTHREAD build error
+* Instead to latest CCID Driver
+* Modify Makefile and to support Apple M1 and x86_64
